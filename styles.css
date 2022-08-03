@@ -1,0 +1,58 @@
+body {
+    background-color: grey;
+    font-family: 'Gyre Adventor', 'Calibri', sans-serif;
+    width: 64em;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    width: 64rem;
+}
+
+#contact ul {
+    margin: 0;
+    padding: 0;
+}
+#contact ul#items li {
+    display: inline;
+
+}
+
+#contact ul#items li:not(:last-child):after {
+    content: "|"
+}
+
+.page {
+    page-break-after: always;
+    position: relative;
+    width: 8.5in;
+    height: 11in;
+  }
+
+  #summary .header {
+    background-color: #19414b;
+    text-transform: uppercase;
+    color: white;
+    padding: .5em;
+  }
+
+  .bold {
+      font-weight: bold;
+  }
+
+  #summary .body {
+      background-color: white;
+  }
+
+  .important {
+      font-weight: bold;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
+  .time-frame {
+      float: right;
+  }
