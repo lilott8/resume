@@ -30,7 +30,7 @@ header {
     height: 11in;
   }
 
-  #summary .header {
+  .section .header {
     background-color: #19414b;
     text-transform: uppercase;
     color: white;
@@ -55,4 +55,9 @@ header {
 
   .time-frame {
       float: right;
+  }
+
+  hr {
+    border-bottom: 1px solid black;
+    margin: 1em 5em;
   }

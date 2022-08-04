@@ -1,0 +1,10 @@
+@media print {
+    #main {
+        margin: 0px;
+        padding: 0px;
+        width: 670px; /* width: 7in; */
+        height: 900px; /* or height: 9.5in; */
+        clear: both;
+        background-color: green;
+    }
+}
