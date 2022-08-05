@@ -61,3 +61,7 @@ header {
     border-bottom: 1px solid black;
     margin: 1em 5em;
   }
+
+  .graduation {
+    float:right;
+  }
