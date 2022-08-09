@@ -8,6 +8,12 @@ body {
 header {
     margin: 0 auto;
     width: 64rem;
+    text-align: center;
+}
+
+#contact {
+    margin: 0 auto;
+    text-align: center;
 }
 
 #contact ul {
@@ -54,7 +60,6 @@ header {
   }
 
   .time-frame {
-      float: right;
   }
 
   hr {
@@ -62,6 +67,16 @@ header {
     margin: 1em 5em;
   }
 
-  .graduation {
-    float:right;
+  .graduation {  }
+
+  .emphasize {
+    font-style:italic
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .right {
+    float: right;
   }
