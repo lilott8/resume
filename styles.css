@@ -1,12 +1,12 @@
 body {
-    background-color: grey;
+    background-color: white;
     font-family: 'Gyre Adventor', 'Calibri', sans-serif;
     width: 64em;
     margin: 0 auto;
 }
 
 header {
-    margin: 0 auto;
+    margin: 1em auto;
     width: 64rem;
     text-align: center;
 }
@@ -37,6 +37,7 @@ header {
   }
 
   .section .header {
+    margin: .5em 0;
     background-color: #19414b;
     text-transform: uppercase;
     color: white;
@@ -49,6 +50,10 @@ header {
 
   #summary .body {
       background-color: white;
+  }
+
+  .experience {
+    /* margin-top:1em; */
   }
 
   .important {
