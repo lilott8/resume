@@ -22,11 +22,16 @@ header {
 }
 #contact ul#items li {
     display: inline;
-
 }
 
 #contact ul#items li:not(:last-child):after {
-    content: "|"
+    content: "|";
+    padding: 0 0.5em;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
 }
 
 .page {
